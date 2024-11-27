@@ -1,5 +1,9 @@
+import ContinueWithGoogleButton from "@/components/continue-with-google-button";
+
 export default function Login(){
     return(
-        <div><p>Login</p></div>
+        <div>
+            <ContinueWithGoogleButton />
+        </div>
     )
 }
